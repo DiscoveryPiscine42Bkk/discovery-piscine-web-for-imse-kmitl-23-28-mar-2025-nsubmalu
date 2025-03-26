@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+    <style>
+        body {
+            background-color: pink; /* "Pink? What’s wrong with pink?" */
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: white;
+            font-size: 3em;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 20px;
+        }
+        .shop {
+            text-align: center;
+        }
+        .shop img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .shop a {
+            display: block;
+            margin-top: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+        }
+        hr {
+            margin: 40px 0;
+            border: 1px solid black;
+        }
+        .footer {
+            text-align: right;
+            font-style: italic;
+            font-family: monospace;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1> Welcome to shoppping! </h1>
+
+    <div class="container">
+        <div class="shop">
+            <a href="https://www.lazada.co.th/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Lazada_Logo.svg/320px-Lazada_Logo.svg.png" alt="Lazada">
+            </a>
+            <a href="https://www.lazada.co.th/" target="_blank">ไปที่ Lazada</a>
+        </div>
+        <div class="shop">
+            <a href="https://shopee.co.th/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Shopee.svg/320px-Shopee.svg.png" alt="Shopee">
+            </a>
+            <a href="https://shopee.co.th/" target="_blank">ไปที่ Shopee</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        © wil 2024
+    </div>
+
+</body>
+</html>
