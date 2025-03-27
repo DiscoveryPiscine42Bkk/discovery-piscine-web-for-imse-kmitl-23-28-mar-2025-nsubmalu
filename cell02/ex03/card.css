@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Card container */
+.card {
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Profile image */
+.card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* User details */
+.card .info {
+    padding: 15px;
+}
+
+.card h2 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Social media icons */
+.card .social-icons {
+    margin: 10px 0;
+}
+
+.card .social-icons a {
+    display: inline-block;
+    margin: 0 8px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.card .social-icons a:hover {
+    color: #007bff;
+}
+
+/* Contact button */
+.card .contact-btn {
+    display: block;
+    width: 100%;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.card .contact-btn:hover {
+    background: #0056b3;
+}
